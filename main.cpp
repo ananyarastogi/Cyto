@@ -1016,6 +1016,7 @@ void analysis(sim_parameters &ParValue)
      myfileEnd.close();
 
 #ifdef USE_GRAPHICS
+ exit(0);
 
 
     // glutMainLoop(); // this crashes ??
